@@ -5,8 +5,8 @@ export default interface IAuthManager {
   /**
    * Is Authenticated
    */
-  year: number;
-  month: number;
+  year: string;
+  month: string;
   /**
    * AuthenticateUser
    * @param {number} year year filter

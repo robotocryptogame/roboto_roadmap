@@ -1,7 +1,14 @@
 import "./App.scss";
+import { ContentProgress, HeaderRoboto, TitleFilterDate } from "@sections";
 
 function App() {
-  return <div>hola</div>;
+  return (
+    <>
+      <HeaderRoboto />
+      <TitleFilterDate />
+      <ContentProgress />
+    </>
+  );
 }
 
 export default App;
