@@ -1,0 +1,68 @@
+{
+  "availableDates": [
+    { "id": 1, "years":["2022","2023"] , "month": {
+        "2022": ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+        "2023": ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+    } }
+ 
+
+  ],
+  "getAllProgressDate": [
+    { "id": "2023-1", "body": [
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2024",
+            "progress": "80%"
+        },
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2024",
+            "progress": "80%"
+        },
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2024",
+            "progress": "80%"
+        },
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2024",
+            "progress": "80%"
+        }
+
+    ]},
+    { "id": "2023-12", "body": [
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2025",
+            "progress": "50%"
+        },
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2025",
+            "progress": "70%"
+        },
+        {
+            "status":"Alpha",
+            "title": "Release Axies Infinity Origin Access",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "release": "April 6th 2025",
+            "progress": "20%"
+        }
+
+    ] }
+  ]
+ 
+}
