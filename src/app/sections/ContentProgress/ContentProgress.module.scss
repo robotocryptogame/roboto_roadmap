@@ -1,0 +1,17 @@
+.ContainerContentProgress {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 2em;
+  padding-inline: 2em;
+  gap: 2em;
+  .ItemProgress {
+    fieldset {
+      border: 1px black solid;
+      legend {
+        border: 1px black solid;
+        margin-left: 1em;
+        padding: 0.2em 0.8em;
+      }
+    }
+  }
+}
