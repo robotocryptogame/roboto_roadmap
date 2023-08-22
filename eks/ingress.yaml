@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: appsdevroadmap-ingress
+  namespace: dev
+  annotations:
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+    nginx.org/websocket-services: "roboto-roadmap-dev"
+#    kubernetes.io/ingress.class: nginx
+#    nginx.ingress.kubernetes.io/auth-secret: "basic-auth"
+spec:
+  tls:
+  - hosts:
+    - devroadmap.robotouniverse.com
+    secretName: ingress-cert
+  rules:
+    - host: devroadmap.robotouniverse.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: roboto-roadmap-dev
+                port:
+                  number: 80

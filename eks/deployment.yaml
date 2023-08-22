@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: roboto-roadmap
+  namespace: dev
+  labels:
+    app: roboto-roadmap
+spec:
+  selector:
+    matchLabels:
+      app: roadmap-dev
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: roadmap-dev
+    spec:
+      # initContainers:
+        # Init containers are exactly like regular containers, except:
+          # - Init containers always run to completion.
+          # - Each init container must complete successfully before the next one starts.
+      containers:
+      - name: roboto-roadmap-dev
+        image: infraroboto/general_repository:commingsoon_1c587a755d939b0a5ff7e6ff0b7d298d1ffc458b
+      imagePullSecrets:
+      - name: regcred
